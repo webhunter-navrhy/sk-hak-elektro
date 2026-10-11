@@ -1,0 +1,6 @@
+{% extends "_base.html" %}
+{% set titulek = 'Stránka sa nenašla | ' ~ site.nazev %}
+{% set noindex = True %}
+{% block obsah %}
+<section class="sekcia"><div class="wrap"><h1>Stránka sa nenašla</h1><p><a class="tlacidlo" href="{{ url('') }}">Späť na úvod</a></p></div></section>
+{% endblock %}

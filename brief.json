@@ -1,0 +1,34 @@
+{
+  "firma": "HaK - elektro revízie Nitra",
+  "majitel": "Vladimír Vereš (majiteľ)",
+  "obor": "elektro revízie a elektroinštalácie",
+  "mesto": "Nitra",
+  "ico": "33961395",
+  "kontakty": {"telefon": "+421 903 838 238", "email": "veres.revizie@gmail.com", "adresa": "Kláštorská 119, 949 01 Nitra"},
+  "web": null,
+  "cilova_skupina": "domácnosti, firmy, stavebníci pred kolaudáciou, poisťovne",
+  "ton": "vecný, technický, bez marketingových fráz",
+  "brand": {"logo": null, "barvy": "žiadne (bez webu a loga) -> neutrálna paleta papier + modrý atrament pečiatky", "claim": null},
+  "fotky_klienta": "žiadne; na Zlatých stránkach je 8 fotiek z iStocku s vodoznakom (nie ich) -> nepoužité, ilustračné fotky z Unsplash (podklady/stock/zdroje.json)",
+  "fakta": [
+    {"fakt": "Revízie elektroinštalácií a bleskozvodov", "zdroj": "https://www.zlatestranky.sk/firmy/Nitra/H3622598/"},
+    {"fakt": "Revízie elektrických spotrebičov a elektro ručného náradia", "zdroj": "Zlaté stránky (popis firmy)"},
+    {"fakt": "Revízie pre poisťovne a na kolaudácie", "zdroj": "Zlaté stránky (popis firmy)"},
+    {"fakt": "Výroba a montáž NN rozvádzačov", "zdroj": "Zlaté stránky (popis firmy)"},
+    {"fakt": "Elektroinštalačné práce všetkého druhu", "zdroj": "Zlaté stránky (popis firmy)"},
+    {"fakt": "Pre domácnosti aj firmy", "zdroj": "Zlaté stránky (popis firmy)"},
+    {"fakt": "NONSTOP po telefonickom dohovore", "zdroj": "Zlaté stránky (otváracie hodiny)"},
+    {"fakt": "Platba: hotovosť, faktúra, prevodom", "zdroj": "Zlaté stránky (spôsob platby)"},
+    {"fakt": "Nitra a okolie", "zdroj": "YouTube video profilu (WeNet SK): „HaK: elektroinštalačné práce a revízne služby Nitra a okolie“"},
+    {"fakt": "Kontaktná osoba Vladimír Vereš (majiteľ), +421903838238, veres.revizie@gmail.com, Kláštorská 119, 94901 Nitra", "zdroj": "Zlaté stránky"},
+    {"fakt": "IČO 33961395", "zdroj": "recipients.csv kampane (Zlaté stránky)"}
+  ],
+  "nepouzite": "Marketingové vety zo Zlatých stránok (dlhoročné skúsenosti, odborný tím, najmodernejšia technológia, verejný sektor) – bez dôkazu, nepoužité. Recenzie žiadne.",
+  "chybi": [
+    "fotky z Vašej práce (rozvádzače, merania, hotové inštalácie)",
+    "rozsah oprávnenia revízneho technika (aké zariadenia, aký typ osvedčenia), ak ho chcete uviesť",
+    "presná oblasť pôsobenia (Nitra a okolie – ktoré obce/okresy)",
+    "pár viet o sebe, ak chcete (inak necháme vecný text)",
+    "logo, ak nejaké máte"
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "objekt": ["Byt", "Rodinný dom", "Firma / prevádzka", "Novostavba / prestavba", "Iné"],
+  "predmet": ["Elektroinštalácia", "Bleskozvod", "Spotrebiče a ručné náradie", "NN rozvádzač", "Elektroinštalačné práce"],
+  "dovod": ["Pravidelná revízia", "Pre poisťovňu", "Ku kolaudácii", "Nová inštalácia / rekonštrukcia", "Porucha / iné"]
+}

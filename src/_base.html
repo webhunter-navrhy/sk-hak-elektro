@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ titulek or site.nazev }}</title>
+<meta name="description" content="{{ popis or site.popis }}">
+{% if site.navrh or noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
+<meta name="theme-color" content="{{ site.theme_color }}">
+<link rel="canonical" href="{{ site.url }}{{ cesta or '' }}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="sk_SK">
+<meta property="og:title" content="{{ titulek or site.nazev }}">
+<meta property="og:description" content="{{ popis or site.popis }}">
+<meta property="og:url" content="{{ site.url }}{{ cesta or '' }}">
+{% if og_url %}<meta property="og:image" content="{{ og_url }}">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">{% endif %}
+<link rel="preload" href="{{ base }}fonts/schibstedgrotesk-400-700-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ asset('css/style.css') }}">
+{% block head %}{% endblock %}
+{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}
+</head>
+<body>
+<a class="skip" href="#obsah">Preskočiť na obsah</a>
+<header class="hlavicka">
+  <div class="wrap hlavicka-in">
+    <a href="{{ url('') }}" class="znacka" aria-label="{{ site.nazev }} – úvod">
+      <span class="znacka-hak">HaK</span>
+      <span class="znacka-text">– elektro revízie Nitra</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Hlavné menu">
+      {% for n in site.nav %}<a href="{{ n.href }}">{{ n.text }}</a>{% endfor %}
+    </nav>
+    <a class="hlavicka-tel" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}"><span class="tel-l">NONSTOP po dohovore</span>{{ site.kontakt.telefon }}</a>
+    <a class="tel-mobil" href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">Zavolať</a>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="menu"><span></span><span></span><span class="sr">Menu</span></button>
+  </div>
+</header>
+<main id="obsah">
+{% block obsah %}{% endblock %}
+</main>
+<footer class="paticka">
+  <div class="wrap paticka-in">
+    <div>
+      <p class="paticka-nazov">{{ site.nazev }}</p>
+      <p>{{ site.majitel }} · {{ site.kontakt.adresa.ulice }}, {{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }} · IČO {{ site.ico }}</p>
+    </div>
+    <div class="paticka-kontakt">
+      <a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a>
+      <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a>
+    </div>
+    <p class="paticka-pozn">Návrh webu. Fotografie sú ilustračné, po dodaní ich nahradíme fotkami z vašej práce.</p>
+  </div>
+</footer>
+<script src="{{ asset('js/main.js') }}" defer></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+dist/
+.cache/
+qa/
+__pycache__/
+podklady/
+kolaz_*.png
+qa.json
+review.json

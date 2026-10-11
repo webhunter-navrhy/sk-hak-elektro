@@ -1,0 +1,6 @@
+[
+  {"bod": "1.1", "nazev": "Revízie elektroinštalácie", "popis": "Prehliadka, meranie a skúška elektroinštalácie v byte, v rodinnom dome, vo firme či v prevádzke. Po revízii dostanete revíznu správu.", "pre": "byty · domy · firmy", "foto": "meranie-rozvadzac.jpg", "alt": "Meranie hrotmi meracieho prístroja v rozvádzači"},
+  {"bod": "1.2", "nazev": "Revízie bleskozvodov", "popis": "Prehliadka a meranie bleskozvodu na rodinnom dome aj na inej budove, so záznamom do revíznej správy.", "pre": "domy · budovy", "foto": "blesk.jpg", "alt": "Blesk nad mestom v noci"},
+  {"bod": "1.3", "nazev": "Revízie spotrebičov a ručného náradia", "popis": "Kontrola elektrických spotrebičov a elektro ručného náradia – vŕtačiek, brúsok a ďalšieho náradia vo firme, v dielni či na stavbe.", "pre": "firmy · dielne · stavby", "foto": "naradie.jpg", "alt": "Elektrická vŕtačka s prívodným káblom"},
+  {"bod": "1.4", "nazev": "Revízie pre poisťovne a na kolaudácie", "popis": "Revízna správa, keď ju od vás žiada poisťovňa alebo ju potrebujete ku kolaudácii novostavby či prestavby.", "pre": "poisťovňa · kolaudácia", "foto": "kontrola.jpg", "alt": "Domový rozvádzač s ističmi a svorkovnicami"}
+]

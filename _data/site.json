@@ -1,0 +1,31 @@
+{
+  "slug": "sk-hak-elektro",
+  "nazev": "HaK - elektro revízie Nitra",
+  "url": "https://webhunter-navrhy.github.io/sk-hak-elektro/",
+  "base": "/sk-hak-elektro/",
+  "lang": "sk",
+  "popis": "Revízie elektroinštalácií, bleskozvodov, spotrebičov a ručného náradia v Nitre a okolí. Revízie pre poisťovne a na kolaudácie, NN rozvádzače a elektroinštalácie.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "tester.jpg",
+  "logo": "",
+  "theme_color": "#f3f1ea",
+  "typ": "Electrician",
+  "ico": "33961395",
+  "majitel": "Vladimír Vereš",
+  "kontakt": {
+    "email": "veres.revizie@gmail.com",
+    "telefon": "+421 903 838 238",
+    "adresa": {"ulice": "Kláštorská 119", "psc": "949 01", "mesto": "Nitra", "zeme": "SK"}
+  },
+  "oteviraci_doba": [],
+  "sameas": ["https://www.zlatestranky.sk/firmy/Nitra/H3622598/HaK+-+elektro+rev%C3%ADzie+Nitra/"],
+  "cenove_rozpeti": "",
+  "formular": {"endpoint": "", "demo": true, "predmet": "Dopyt z webu – revízia / elektro"},
+  "nav": [
+    {"text": "Revízie", "href": "#revizie"},
+    {"text": "Elektroinštalácie", "href": "#prace"},
+    {"text": "Objednávka revízie", "href": "#objednavka"},
+    {"text": "Kontakt", "href": "#kontakt"}
+  ]
+}
